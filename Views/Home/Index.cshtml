@@ -1,0 +1,15 @@
+﻿@Scripts.Render("~/bundles/jquery")
+@using GitHubApplication.Controllers
+@{
+    ViewBag.Title = "User Information reader";
+}
+
+
+<img class="img-start pointer" id="gh-image" src="https://miro.medium.com/max/1400/1*E69cyZ2vY6_sR-KKAdGLEg.png" alt="GitHub image" />
+<span>Users Repository</span>
+<div class="btn-start-positon">
+    <button onclick="location.href='@Url.Action(nameof(WebController.GitHubUsername), "Web")'" class="btn btn-danger mt-1 mb-1 text-uppercase">Let's start</button>
+</div>
+<script>
+    $('#gh-image').on('click', function () { window.open('https://github.com/') });
+</script>

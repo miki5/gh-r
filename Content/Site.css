@@ -1,0 +1,132 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.inputbox-custom {
+    width: 25rem;
+    height: 36px;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.align-btn-gh {
+    margin-bottom: 3px;
+}
+
+.mt-1 {
+    margin-top: 1em;
+}
+
+.btn-start-positon {
+    margin-top: 8rem;
+    margin-left: 1px;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+::placeholder {
+    color: steelblue;
+}
+
+.error-label {
+    position: absolute;
+    margin-left: -25.5rem;
+    margin-top: 52px;
+    font-size: 13.5px;
+}
+
+.check-dec {
+    margin-left: 5px;
+}
+
+.title-decoration {
+    font-family: fantasy;
+}
+
+.img-start {
+    width: 150px;
+    margin-left: -20px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+    .img-start + span {
+        position: absolute;
+        margin-left: 10rem;
+        margin-top: 55px;
+        font-size: 25px;
+        font-family: fantasy;
+    }
+
+.user-info-global {
+    margin-top: -5px;
+}
+
+.image-custom {
+    border: 2px solid #fff3bd;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.star-col {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -1px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.check-dec .square {
+    margin-top: 4px;
+    position: absolute;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.check-dec label {
+    cursor: pointer;
+}
+
+.title-decoration-table {
+    background-color: #004887;
+    color: white;
+    margin-top: 9px;
+    padding: 7px;
+}
+
+.float-right {
+    float: right;
+}
